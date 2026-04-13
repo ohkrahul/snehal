@@ -5,6 +5,8 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Navbar from '@/components/ui/Navbar';
 import HeroSection from '@/components/sections/HeroSection';
+import ImpactStorySection from '@/components/sections/ImpactStorySection';
+import BrandGrowthSection from '@/components/sections/BrandGrowthSection';
 import AboutSection from '@/components/sections/AboutSection';
 import ExperienceSection from '@/components/sections/ExperienceSection';
 import CampaignsSection from '@/components/sections/CampaignsSection';
@@ -35,6 +37,8 @@ export default function Home() {
       <Navbar />
       <main>
         <HeroSection />
+        <ImpactStorySection />
+        <BrandGrowthSection />
         <AboutSection />
         <ExperienceSection />
         <CampaignsSection />

@@ -14,15 +14,18 @@ export default function SkillPill({ name, bg, border, color }: SkillPillProps) {
     <span
       className="skill-pill inline-block"
       style={{
-        backgroundColor: bg,
+        background: `linear-gradient(135deg, ${bg} 0%, rgba(255,255,255,0.92) 100%)`,
         border: `1px solid ${border}`,
         color: color,
         fontSize: '12px',
         fontWeight: 600,
-        padding: '9px 18px',
-        borderRadius: '24px',
+        padding: '10px 18px',
+        borderRadius: '999px',
         fontFamily: 'Inter, sans-serif',
         cursor: 'default',
+        boxShadow: '0 8px 18px rgba(18, 26, 56, 0.06)',
+        backdropFilter: 'blur(8px)',
+        letterSpacing: '-0.01em',
       }}
     >
       {name}
